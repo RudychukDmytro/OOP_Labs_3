@@ -1,0 +1,99 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.7.14">
+  <diagram name="Сторінка-1" id="Wv6u06QHLPYVCPe3R5JD">
+    <mxGraphModel dx="1035" dy="1303" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="PRdy1GPZYwtZBz7hdaIl-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="PRdy1GPZYwtZBz7hdaIl-1" target="PRdy1GPZYwtZBz7hdaIl-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PRdy1GPZYwtZBz7hdaIl-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="PRdy1GPZYwtZBz7hdaIl-1" target="PRdy1GPZYwtZBz7hdaIl-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PRdy1GPZYwtZBz7hdaIl-1" value="FootballPlayer" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="110" y="240" width="220" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="PRdy1GPZYwtZBz7hdaIl-3" value="Методи:&lt;ul&gt;&lt;li&gt;&lt;code&gt;FootballPlayer()&lt;/code&gt;&lt;/li&gt;&lt;li&gt;&lt;code&gt;FootballPlayer(const std::string &amp;amp;, int, int)&lt;/code&gt;&lt;/li&gt;&lt;li&gt;&lt;code&gt;~FootballPlayer()&lt;/code&gt;&lt;/li&gt;&lt;li&gt;&lt;code&gt;getName(): string&lt;/code&gt;&lt;/li&gt;&lt;li&gt;&lt;code&gt;setName(const std::string &amp;amp;)&lt;/code&gt;&lt;/li&gt;&lt;li&gt;&lt;code&gt;displayPlayerInfo() const&lt;/code&gt;&lt;/li&gt;&lt;/ul&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="100" y="-70" width="240" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="PRdy1GPZYwtZBz7hdaIl-4" value="name: string" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="334" width="100" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="PRdy1GPZYwtZBz7hdaIl-5" value="goals: int" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="330" width="90" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="PRdy1GPZYwtZBz7hdaIl-6" value="yellowCards: int" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="330" width="110" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="PRdy1GPZYwtZBz7hdaIl-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.425;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="PRdy1GPZYwtZBz7hdaIl-1" target="PRdy1GPZYwtZBz7hdaIl-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PRdy1GPZYwtZBz7hdaIl-14" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="PRdy1GPZYwtZBz7hdaIl-1" target="PRdy1GPZYwtZBz7hdaIl-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="195" y="250" as="sourcePoint" />
+            <mxPoint x="245" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PRdy1GPZYwtZBz7hdaIl-16" value="Методи:&lt;ul&gt;&lt;li&gt;&lt;code&gt;FootballTeam()&lt;/code&gt;&lt;/li&gt;&lt;li&gt;&lt;code&gt;FootballTeam(const std::string &amp;amp;, int, int)&lt;/code&gt;&lt;/li&gt;&lt;li&gt;&lt;code&gt;FootballTeam(const FootballTeam &amp;amp;)&lt;/code&gt;&lt;/li&gt;&lt;li&gt;&lt;code&gt;~FootballTeam()&lt;/code&gt;&lt;/li&gt;&lt;li&gt;&lt;code&gt;getTeamCount(): static int&lt;/code&gt;&lt;/li&gt;&lt;li&gt;&lt;code&gt;addPlayer(const FootballPlayer &amp;amp;)&lt;/code&gt;&lt;/li&gt;&lt;li&gt;&lt;code&gt;displayTeamInfo() const&lt;/code&gt;&lt;/li&gt;&lt;li&gt;&lt;code&gt;getTopScorer() const&lt;/code&gt;&lt;/li&gt;&lt;/ul&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="710" y="-70" width="260" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="PRdy1GPZYwtZBz7hdaIl-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="PRdy1GPZYwtZBz7hdaIl-17" target="PRdy1GPZYwtZBz7hdaIl-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PRdy1GPZYwtZBz7hdaIl-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="PRdy1GPZYwtZBz7hdaIl-17" target="PRdy1GPZYwtZBz7hdaIl-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PRdy1GPZYwtZBz7hdaIl-17" value="FootballTeam" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="760" y="233.5" width="220" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="PRdy1GPZYwtZBz7hdaIl-18" value="teamName: string" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="344" width="100" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="PRdy1GPZYwtZBz7hdaIl-20" value="teamCount: static int" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="770" y="344" width="110" height="74" as="geometry" />
+        </mxCell>
+        <mxCell id="PRdy1GPZYwtZBz7hdaIl-21" value="players: vector&amp;lt;FootballPlayer&amp;gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="540" y="270" width="120" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="PRdy1GPZYwtZBz7hdaIl-22" value="losses: int" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1020" y="283.5" width="110" height="57" as="geometry" />
+        </mxCell>
+        <mxCell id="PRdy1GPZYwtZBz7hdaIl-23" value="wins: int" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="910" y="330" width="100" height="67" as="geometry" />
+        </mxCell>
+        <mxCell id="PRdy1GPZYwtZBz7hdaIl-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.942;entryY=0.31;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="PRdy1GPZYwtZBz7hdaIl-17" target="PRdy1GPZYwtZBz7hdaIl-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PRdy1GPZYwtZBz7hdaIl-26" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.458;entryY=1.004;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="PRdy1GPZYwtZBz7hdaIl-16">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="830" y="240" as="sourcePoint" />
+            <mxPoint x="880" y="190" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PRdy1GPZYwtZBz7hdaIl-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0.015;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="PRdy1GPZYwtZBz7hdaIl-17" target="PRdy1GPZYwtZBz7hdaIl-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PRdy1GPZYwtZBz7hdaIl-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.34;entryY=0.045;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="PRdy1GPZYwtZBz7hdaIl-17" target="PRdy1GPZYwtZBz7hdaIl-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PRdy1GPZYwtZBz7hdaIl-32" value="many players in team" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="100" width="200" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="PRdy1GPZYwtZBz7hdaIl-33" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="1" source="PRdy1GPZYwtZBz7hdaIl-1" target="PRdy1GPZYwtZBz7hdaIl-32">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="560" y="320" as="sourcePoint" />
+            <mxPoint x="610" y="270" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PRdy1GPZYwtZBz7hdaIl-34" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;exitX=1;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="PRdy1GPZYwtZBz7hdaIl-32" target="PRdy1GPZYwtZBz7hdaIl-17">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="560" y="320" as="sourcePoint" />
+            <mxPoint x="610" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
